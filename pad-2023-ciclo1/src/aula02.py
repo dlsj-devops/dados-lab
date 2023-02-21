@@ -23,3 +23,13 @@ if idade > 15:
 #uso de parenteses melhora legibilidade do código
 if (idade >= 16) and (idade < 21):
     print("Pode dirigir, mas não pode comprar álcool nos EUA")
+
+#elif
+#imprimir o maior dentre dois números
+
+a = int(input("digite valor de 'A': "))
+b = int(input("digite o valor de 'B': "))
+if (a > b):
+    print("A é maior do que B ({} > {})".format(a, b))
+else:
+    print("B é maior do que A ({} > {})".format(b, a))
